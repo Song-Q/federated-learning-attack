@@ -11,6 +11,8 @@ The models are produced by:
 Federated learning is produced by:
 > python [main_fed.py](main_fed.py)
 
+User needs to create a new folder /log
+
 See the arguments in [options.py](utils/options.py). 
 
 
