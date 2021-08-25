@@ -5,19 +5,13 @@ Only experiments on MNIST and CIFAR10 (both IID and non-IID) is produced by far.
 
 ## Run
 
-The MLP and CNN models are produced by:
+The models are produced by:
 > python [main_nn.py](main_nn.py)
 
-The testing accuracy of MLP on MINST: 92.14% (10 epochs training) with the learning rate of 0.01.
-The testing accuracy of CNN on MINST: 98.37% (10 epochs training) with the learning rate of 0.01.
-
-Federated learning with MLP and CNN is produced by:
+Federated learning is produced by:
 > python [main_fed.py](main_fed.py)
 
 See the arguments in [options.py](utils/options.py). 
-
-For example:
-> python main_fed.py --dataset mnist --num_channels 1 --model cnn --epochs 50 --gpu 0 
 
 
 ## Results
